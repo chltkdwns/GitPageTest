@@ -24,27 +24,26 @@
     <!-- 메인 -->
     <main>
       <!-- About -->
-      <section id="about" class="section about">
+      <section id="about" class="section about snap-section">
         <div class="about-box">
           <img src="images/myphoto.jpg" alt="내 사진" class="profile-img" />
           <div class="about-info">
             <h1>최상준</h1>
-            <p class="subtitle">웹 개발자 | 프론트엔드 & 백엔드 학습 중</p>
+            <p class="subtitle">개발자 | 프론트엔드 & 백엔드 학습 중</p>
 
             <ul class="contact-list">
               <li>010-9209-5075</li>
               <li>chtkdldjs43@naver.com</li>
               <li>
-                <a href="https://github.com/chltkdwns" target="_blank"
-                  >GitHub 바로가기</a
-                >
+                <a href="https://github.com/chltkdwns" target="_blank">GitHub 바로가기</a>
               </li>
             </ul>
           </div>
         </div>
       </section>
 
-      <section id="stack" class="section stack">
+      <!-- Stack -->
+      <section id="stack" class="section stack snap-section">
         <h2>기술 스택</h2>
 
         <div class="stack-group">
@@ -75,11 +74,11 @@
         </div>
       </section>
 
-      <!-- 프로젝트 -->
-      <section id="projects" class="section projects-wrapper">
+      <!-- Projects -->
+      <section id="projects" class="section projects-wrapper snap-section">
         <h2>프로젝트</h2>
 
-        <!-- 조별 프로젝트 -->
+        <!-- 팀 프로젝트 -->
         <div class="sub-projects">
           <h3>팀 프로젝트</h3>
           <div class="project-slider">
@@ -89,7 +88,7 @@
               <p>사용자가 작성한 일기장을 통해 감정을 분석하고,<br />
                 해당 감정에 어울리는 음악을 추천해주는 <br />웹 애플리케이션입니다.</p>
               <p>Frontend: — <br />Backend: Spring Boot<br />기타: Python 기반 감정 분석<br />배포: Jenkins</p>
-              <a href="https://moodf.xyz/" target="_blank">사이트 바로가기</a>
+              <a href="https://moodf.xyz/" target="_blank">사이트 바로가기</a><br />
               <a href="https://github.com/songmikim/moodify" target="_blank">GitHub</a>
             </div>
 
@@ -98,7 +97,7 @@
               <p>넘어짐 감지 기반 응급 알림 시스템</p>
               <p>웹캠으로 실시간 모니터링 후,<br />사람이 넘어졌을 경우 <br />사용자에게 알림을 보내는 시스템입니다.</p>
               <p>Frontend: TypeScript<br />Backend: Java Spring Boot<br />Detection: Python 기반 영상 분석</p>
-              <a href="https://chulfudoc.xyz/" target="_blank">사이트 바로가기</a>
+              <a href="https://chulfudoc.xyz/" target="_blank">사이트 바로가기</a><br />
               <a href="https://github.com/koreait1" target="_blank">GitHub</a>
             </div>
           </div>
@@ -124,3 +123,5 @@
     </footer>
   </body>
 </html>
+
+python -m http.server 8000
